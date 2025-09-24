@@ -23,7 +23,7 @@ public class LoginTest {
         driver.findElement(By.id("username")).sendKeys("student");
         driver.findElement(By.id("password")).sendKeys("Password123");
         driver.findElement(By.id("submit")).click();
-        System.out.println("Working fine");
+        System.out.println("Docker & Jenkins is Working fine");
         WebElement message = driver.findElement(By.tagName("h1"));
         Assert.assertEquals(message.getText(), "Logged In Successfully");
     }

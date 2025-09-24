@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest {
-    WebDriver driver;
+	protected  WebDriver driver;
 
     @BeforeMethod
     public void setup() {
@@ -18,14 +18,15 @@ public class LoginTest {
         options.addArguments("--headless"); // 
         options.addArguments("--no-sandbox"); // Required for Docker
         options.addArguments("--disable-dev-shm-usage");
-        WebDriver driver = new ChromeDriver(options);
+         driver = new ChromeDriver(options);
      //   driver = new ChromeDriver();
      //   driver.manage().window().maximize();
-        driver.get("https://practicetestautomation.com/practice-test-login/");
+       
     }
 
     @Test
     public void testLogin() {
+    	 driver.get("https://practicetestautomation.com/practice-test-login/");
         driver.findElement(By.id("username")).sendKeys("student");
         driver.findElement(By.id("password")).sendKeys("Password123");
         driver.findElement(By.id("submit")).click();

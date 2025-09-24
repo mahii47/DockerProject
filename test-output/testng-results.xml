@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-24T20:33:49 IST" name="Default suite" finished-at="2025-09-24T20:34:29 IST" duration-ms="39968">
+  <suite started-at="2025-09-25T00:03:48 IST" name="Default suite" finished-at="2025-09-25T00:04:01 IST" duration-ms="13469">
     <groups>
     </groups>
-    <test started-at="2025-09-24T20:33:49 IST" name="Default test" finished-at="2025-09-24T20:34:29 IST" duration-ms="39968">
+    <test started-at="2025-09-25T00:03:48 IST" name="Default test" finished-at="2025-09-25T00:04:01 IST" duration-ms="13469">
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@3b69e7d1]" started-at="2025-09-24T20:33:49 IST" name="setup" finished-at="2025-09-24T20:34:26 IST" duration-ms="36665" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.LoginTest@5542c4ed]" started-at="2025-09-25T00:03:48 IST" name="setup" finished-at="2025-09-25T00:03:54 IST" duration-ms="6280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin()[pri:0, instance:Tests.LoginTest@3b69e7d1]" started-at="2025-09-24T20:34:26 IST" name="testLogin" finished-at="2025-09-24T20:34:29 IST" duration-ms="2728" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:Tests.LoginTest@5542c4ed]" started-at="2025-09-25T00:03:54 IST" name="testLogin" finished-at="2025-09-25T00:04:01 IST" duration-ms="6878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@3b69e7d1]" started-at="2025-09-24T20:34:29 IST" name="teardown" finished-at="2025-09-24T20:34:29 IST" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@5542c4ed]" started-at="2025-09-25T00:04:01 IST" name="teardown" finished-at="2025-09-25T00:04:01 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

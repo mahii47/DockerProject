@@ -1,5 +1,5 @@
-# Use Maven with JDK
-FROM maven:3.8.8-openjdk-17
+# Use Maven with JDK 17
+FROM maven:3.8.8-eclipse-temurin-17
 
 # Set working directory inside container
 WORKDIR /app

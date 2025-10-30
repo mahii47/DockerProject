@@ -8,12 +8,12 @@ pipeline {
             }
         }
         
-        stage('Build Docker Image')
-        {
-			steps{
-				sh 'docker build -t selenium-tests .'
-			}
-		}
+   //     stage('Build Docker Image')
+ //       {
+	//		steps{
+	//			sh 'docker build -t selenium-tests .'
+	//		}
+	//	}
 
         stage('Build & Test') {
             steps {
